@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+
+<body>
+    <center>
+        <table>
+            <form>
+                <h1> User Registration </h1>
+                <tr>
+                    <td> <label for="name"> UserName: </label></td>
+                    <td><input type="text" id="name" placeholder="Enter the name" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password"> Password: </label></td>
+                    <td><input type="password" id="password" placeholder="Enter the password" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pno"> PhoneNo: </label></td>
+                    <td><input type="number" id="number" placeholder="Enter PhoneNo "></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="feedback"> Feedback: </label></td>
+                    <td><textarea rows="3" cols="25"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="email"> Email: </label></td>
+                    <td> <input type="email" id="email" placeholder="Enter the email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender"> Gender: </label></td>
+                    <td>
+                        <input type="radio" name="gender"> male
+                        <input type="radio" name="gender"> Female
+                        <input type="radio" name="gender"> others
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="group"> Course: </label></td>
+                    <td>
+                        <select>
+                            <option value="ComputerScience">ComputerScience</option>
+                            <option value="Maths">Maths</option>
+                            <option value="Biology">Biology</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="hobby"> Hobbies: </label></td>
+                    <td>
+                        <input type="checkbox" name="hobby"> Singing
+                        <input type="checkbox" name="hobby"> Dancing
+                        <input type="checkbox" name="hobby"> Acting
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <button> Submit </button></td>
+                    <td> <button> Reset </button></td>
+                </tr>
+            </form>
+            <tr>
+            <td><a href="index.html" target="_blank" >
+                <button> Back To Page </button>
+            </a></td>
+            </tr>
+        </table>
+        
+    </center>
+</body>
+
+</html>
