@@ -1,0 +1,57 @@
+.Container{
+    background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png);     
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 400px; 
+    margin: auto;
+
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.para{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.para1{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.para2 {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button {
+    background-color: orange;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.link{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
